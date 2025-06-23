@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    image: martinejaw/web-project
+    container_name: web-project
+    ports:
+      - "3000:3000"
